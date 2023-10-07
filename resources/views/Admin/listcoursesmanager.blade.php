@@ -1,20 +1,16 @@
-<link rel="stylesheet" href={{asset("css/bootstrap.min.css")}} />
-<link rel="stylesheet" href={{asset("css/fontawesome/fontawesome.min.css")}} />
-<link rel="stylesheet" href={{asset("css/fontawesome/all.min.css")}} />
-<link rel="stylesheet" href={{asset("css/Admin/.css")}} />
+@php use App\View\Components\CourseComponent; @endphp
+@extends("layouts/head")
+<link rel="stylesheet" href={{asset("css/Admin/list.css")}} />
 <div class="container">
-    <div class="list-courses d-flex">
+    <div class="list-courses d-flex flex-wrap">
         <div class="component">
-            <div class="courses-img">
-                <img src="{{asset("assets/danhgialangluc.png")}}"/>
+            <div class="d-flex justify-content-center align-items-center" style="height: 160px">
+                <i style="font-size: 50px" class="fas fa-plus"></i>
             </div>
-            <h6 style="margin-top: 13px; padding-left: 10px">Thi thử đánh giá năng lực</h6>
+            <h6 class="title-courses">Tạo khoá học</h6>
         </div>
-        <div class="component">
-            <div class="courses-img">
-                <img style="height: 158px" src="{{asset("assets/btvn.png")}}"/>
-            </div>
-            <h6 style="margin-top: 13px; padding-left: 10px">Bài tập về nhà</h6>
-        </div>
+        <x-course-component src="assets/danhgialangluc.png" titleCourses="Thi thử đánh giá năng lực" />
+        <x-course-component src="assets/danhgialangluc.png" titleCourses="Thi thử đánh giá năng lực" />
+        <x-course-component src="assets/danhgialangluc.png" titleCourses="Thi thử đánh giá năng lực" />
     </div>
 </div>
