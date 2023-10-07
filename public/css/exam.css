@@ -1,0 +1,18 @@
+.answers-box {
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container-main {
+    padding: 20px;
+}
+#countdown {
+    font-size: 30px;
+}
+.container-quiz {
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+.answer-container {
+    padding: 10px;
+}

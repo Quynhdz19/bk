@@ -1,0 +1,19 @@
+.component, .courses-img {
+    width: 300px;
+}
+.courses-img {
+    border-bottom: 1px solid #dadada;
+}
+.component {
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.15);
+    transition: all .3s ease-out 0s;
+    padding: 0;
+    margin-bottom: 2rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+}
+.courses-img img {
+    width: 100%;
+}
