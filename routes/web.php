@@ -18,6 +18,9 @@ Route::get('Admin/list/courses', function ()  {
 Route::get('Admin/courses/create', function ()  {
     return view('Admin/createcourses');
 });
+Route::get('Admin/courses/menu', function ()  {
+    return view('dasboard/menu');
+});
 
 //user
 Route::get('Users/exam', function ()  {

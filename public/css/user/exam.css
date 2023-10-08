@@ -16,3 +16,6 @@
 .answer-container {
     padding: 10px;
 }
+#download {
+  display: none;
+}
